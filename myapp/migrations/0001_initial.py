@@ -17,7 +17,7 @@ class Migration(migrations.Migration):
                 ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('email', models.EmailField(max_length=254)),
                 ('name', models.CharField(max_length=30)),
-                ('userid', models.DecimalField(decimal_places=0, max_digits=2)),
+                ('user_id', models.DecimalField(decimal_places=0, max_digits=2)),
                 ('class_id', models.DecimalField(decimal_places=0, max_digits=2)),
                 ('class_name', models.CharField(max_length=30)),
                 ('category', models.CharField(max_length=30, default="Nothing")),
